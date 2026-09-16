@@ -1,546 +1,109 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ventures 3 Unit 1b - 2a: Complete Learning Notes</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ricky Ventures 3 Unit 1b-1a:Personal Information & School</title><style>
+*{box-sizing:border-box}body{margin:0;background:#f7f9fc;color:#26354a;font-family:Arial,"Noto Sans SC","Microsoft YaHei",sans-serif}.page{max-width:1050px;margin:28px auto;padding:0 26px 48px}header{background:linear-gradient(135deg,#244d9f,#2f68e8);color:white;border-radius:15px;padding:25px 30px;margin-bottom:22px;box-shadow:0 8px 22px #1f4e9a20}header h1{margin:0 0 8px;font-size:30px}header p{margin:0;opacity:.88}.grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.card{background:white;border:1px solid #dfe5ee;border-radius:13px;padding:18px 19px;box-shadow:0 2px 7px #243b5a0b}.head{display:flex;gap:14px;align-items:flex-start}.badge{width:42px;height:42px;border-radius:9px;display:grid;place-items:center;font-weight:800}.blue{background:#e8f1ff;color:#2862c9}.pink{background:#ffe8f2;color:#cf3f7b}.green{background:#e4f9ec;color:#228d50}.yellow{background:#fff5d8;color:#b57c0b}.indigo{background:#edf0ff;color:#4c55c8}.orange{background:#fff0df;color:#c76a18}.purple{background:#f4e9ff;color:#8c42c5}.gold{background:#fff7c9;color:#a67a00}.teal{background:#ddf7f1;color:#178a78}.violet{background:#f4e8ff;color:#9440b5}.titlewrap{flex:1}.titleline{display:flex;align-items:center;gap:8px}h2{color:#2862c9;margin:0;font-size:22px}.speaker{border:0;background:#edf4ff;width:34px;height:34px;border-radius:50%;cursor:pointer;font-size:17px;display:grid;place-items:center;transition:.15s}.speaker:hover{transform:scale(1.08);background:#dceaff}.speaker.playing{outline:3px solid #b8d1ff}.meta{display:flex;gap:12px;align-items:center;margin-top:5px;font-size:13px;color:#66758a}.meta b{background:#e6f5ff;color:#28759a;padding:3px 6px;border-radius:4px}.zh{margin-top:13px;background:#f1f5fa;border-left:4px solid #3787ff;padding:8px 10px;font-weight:600}p{font-size:14px;line-height:1.5;margin:11px 0}.label{font-size:13px;color:#94a0b0;margin-top:8px}.key{color:#7b3fc6;font-weight:700}ul{margin:7px 0 0;padding-left:20px;font-size:14px;line-height:1.6}footer{text-align:center;color:#9aa6b5;margin-top:25px;font-size:12px}@media(max-width:760px){.grid{grid-template-columns:1fr}header h1{font-size:24px}.page{padding:0 14px 35px}}
 
-    body {
-      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-      background-color: #f4f6f9;
-      color: #333;
-      padding: 30px 15px;
-      display: flex;
-      justify-content: center;
-    }
+.story-section{margin-top:24px;background:white;border:1px solid #dfe5ee;border-radius:13px;padding:24px 26px;box-shadow:0 2px 7px #243b5a0b}
+.story-section h2{margin:0 0 18px;color:#244d9f;font-size:24px;text-align:center}
+.story-section h3{margin:18px 0 8px;color:#26354a;font-size:17px}
+.story-section p{font-size:15px;line-height:1.75;margin:9px 0}
+.storyword{color:#2862c9;font-weight:700}
 
-    .container {
-      width: 100%;
-      max-width: 900px;
-    }
 
-    /* 顶部 Banner 样式 */
-    .header-banner {
-      background: linear-gradient(135deg, #1D61E7 0%, #1542a6 100%);
-      color: #ffffff;
-      padding: 32px 28px;
-      border-radius: 16px;
-      box-shadow: 0 10px 25px rgba(29, 97, 231, 0.2);
-      margin-bottom: 30px;
-    }
+.badge{font-family:"Segoe UI Emoji","Apple Color Emoji","Noto Color Emoji",sans-serif;font-size:24px;line-height:1}
 
-    .header-banner h1 {
-      font-size: 1.8rem;
-      font-weight: 700;
-      margin-bottom: 8px;
-      letter-spacing: -0.5px;
-    }
-
-    .header-banner p {
-      font-size: 0.95rem;
-      opacity: 0.9;
-    }
-
-    /* 板块通用标题 */
-    .section-title {
-      font-size: 1.25rem;
-      font-weight: 700;
-      color: #1f2937;
-      margin: 32px 0 16px 0;
-      display: flex;
-      align-items: center;
-      gap: 10px;
-    }
-
-    /* 单词卡片网格布局 */
-    .cards-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-      gap: 20px;
-    }
-
-    @media (max-width: 480px) {
-      .cards-grid {
-        grid-template-columns: 1fr;
-      }
-    }
-
-    /* 单词卡片基础样式 */
-    .vocab-card {
-      background: #ffffff;
-      border-radius: 14px;
-      padding: 20px 24px;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
-      border: 1px solid #e5e7eb;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      transition: transform 0.2s ease, box-shadow 0.2s ease;
-    }
-
-    .vocab-card:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
-    }
-
-    .card-top {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-      margin-bottom: 12px;
-    }
-
-    .word-title-group {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-    }
-
-    .word-badge {
-      background-color: #eef2ff;
-      color: #1D61E7;
-      font-size: 0.75rem;
-      font-weight: 700;
-      padding: 4px 8px;
-      border-radius: 6px;
-      text-transform: uppercase;
-    }
-
-    .word {
-      font-size: 1.35rem;
-      font-weight: 700;
-      color: #1D61E7;
-    }
-
-    .audio-btn {
-      background: #f3f4f6;
-      border: none;
-      border-radius: 50%;
-      width: 36px;
-      height: 36px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      cursor: pointer;
-      color: #4b5563;
-      transition: all 0.2s;
-    }
-
-    .audio-btn:hover {
-      background: #e5e7eb;
-      color: #1D61E7;
-    }
-
-    .phonetic-pos {
-      font-size: 0.88rem;
-      color: #6b7280;
-      margin-bottom: 14px;
-      display: flex;
-      gap: 8px;
-      align-items: center;
-    }
-
-    .cn-meaning {
-      background-color: #f8fafc;
-      border-left: 4px solid #1D61E7;
-      padding: 10px 12px;
-      border-radius: 0 8px 8px 0;
-      font-weight: 600;
-      color: #1f2937;
-      font-size: 0.95rem;
-      margin-bottom: 12px;
-    }
-
-    .en-def {
-      font-size: 0.9rem;
-      color: #4b5563;
-      line-height: 1.5;
-    }
-
-    /* 中英文短文 / 场景卡片样式 */
-    .article-card {
-      background: #ffffff;
-      border-radius: 14px;
-      padding: 24px;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
-      border: 1px solid #e5e7eb;
-      margin-bottom: 20px;
-    }
-
-    .article-title {
-      font-size: 1.1rem;
-      font-weight: 700;
-      color: #1D61E7;
-      margin-bottom: 12px;
-    }
-
-    .paragraph-en {
-      font-size: 1rem;
-      color: #1f2937;
-      line-height: 1.6;
-      margin-bottom: 8px;
-    }
-
-    .paragraph-cn {
-      font-size: 0.92rem;
-      color: #6b7280;
-      line-height: 1.6;
-      margin-bottom: 16px;
-    }
-
-    .scene-list {
-      list-style: none;
-    }
-
-    .scene-item {
-      padding: 12px 16px;
-      background: #f9fafb;
-      border-radius: 8px;
-      margin-bottom: 10px;
-      border: 1px solid #f3f4f6;
-    }
-
-    .scene-en {
-      font-weight: 600;
-      color: #111827;
-      margin-bottom: 4px;
-    }
-
-    .scene-cn {
-      font-size: 0.88rem;
-      color: #6b7280;
-    }
-  </style>
-</head>
-<body>
-
-  <div class="container">
-    <!-- 顶部 Banner -->
-    <header class="header-banner">
-      <h1>Ventures 3 Unit 1b - 2a</h1>
-      <p>Ricky 的英语学习笔记 · 个人信息与学校高频词汇及场景表达</p>
-    </header>
-
-    <!-- 第一板块：10个核心单词卡片 -->
-    <div class="section-title">
-      📌 重点图解词汇卡片 (Core Vocabulary)
-    </div>
-
-    <div class="cards-grid">
-
-      <!-- 1. reliable -->
-      <div class="vocab-card">
-        <div>
-          <div class="card-top">
-            <div class="word-title-group">
-              <span class="word-badge">Aa</span>
-              <span class="word">reliable</span>
-            </div>
-            <button class="audio-btn" onclick="speak('reliable')" title="朗读发音">
-              🔊
-            </button>
-          </div>
-          <div class="phonetic-pos">
-            <span>/rɪˈlaɪəbl/</span> • <span>adj. 形容词</span>
-          </div>
-          <div class="cn-meaning">
-            中文释义：可靠的，值得信赖的
-          </div>
-        </div>
-        <div class="en-def">
-          Someone or something you can trust or depend on. (Dependable, trustworthy.)
-        </div>
-      </div>
-
-      <!-- 2. describe -->
-      <div class="vocab-card">
-        <div>
-          <div class="card-top">
-            <div class="word-title-group">
-              <span class="word-badge">Aa</span>
-              <span class="word">describe</span>
-            </div>
-            <button class="audio-btn" onclick="speak('describe')" title="朗读发音">
-              🔊
-            </button>
-          </div>
-          <div class="phonetic-pos">
-            <span>/dɪˈskraɪb/</span> • <span>v. 动词</span>
-          </div>
-          <div class="cn-meaning">
-            中文释义：描述，描写
-          </div>
-        </div>
-        <div class="en-def">
-          To tell what something or someone is like; explain in detail.
-        </div>
-      </div>
-
-      <!-- 3. organized -->
-      <div class="vocab-card">
-        <div>
-          <div class="card-top">
-            <div class="word-title-group">
-              <span class="word-badge">Aa</span>
-              <span class="word">organized</span>
-            </div>
-            <button class="audio-btn" onclick="speak('organized')" title="朗读发音">
-              🔊
-            </button>
-          </div>
-          <div class="phonetic-pos">
-            <span>/ˈɔːrɡənaɪzd/</span> • <span>adj. / v. 有条理的</span>
-          </div>
-          <div class="cn-meaning">
-            中文释义：有组织的，有条理的
-          </div>
-        </div>
-        <div class="en-def">
-          Arranged in order; neat and well planned; orderly or structured.
-        </div>
-      </div>
-
-      <!-- 4. situation -->
-      <div class="vocab-card">
-        <div>
-          <div class="card-top">
-            <div class="word-title-group">
-              <span class="word-badge">Aa</span>
-              <span class="word">situation</span>
-            </div>
-            <button class="audio-btn" onclick="speak('situation')" title="朗读发音">
-              🔊
-            </button>
-          </div>
-          <div class="phonetic-pos">
-            <span>/ˌsɪtʃuˈeɪʃn/</span> • <span>n. 名词</span>
-          </div>
-          <div class="cn-meaning">
-            中文释义：情况，局势
-          </div>
-        </div>
-        <div class="en-def">
-          Something that is happening; state, condition, or set of circumstances.
-        </div>
-      </div>
-
-      <!-- 5. conclusion -->
-      <div class="vocab-card">
-        <div>
-          <div class="card-top">
-            <div class="word-title-group">
-              <span class="word-badge">Aa</span>
-              <span class="word">conclusion</span>
-            </div>
-            <button class="audio-btn" onclick="speak('conclusion')" title="朗读发音">
-              🔊
-            </button>
-          </div>
-          <div class="phonetic-pos">
-            <span>/kənˈkluːʒn/</span> • <span>n. 名词</span>
-          </div>
-          <div class="cn-meaning">
-            中文释义：结论，结果
-          </div>
-        </div>
-        <div class="en-def">
-          The ending or final result of something; a decision reached by reasoning.
-        </div>
-      </div>
-
-      <!-- 6. concentrate -->
-      <div class="vocab-card">
-        <div>
-          <div class="card-top">
-            <div class="word-title-group">
-              <span class="word-badge">Aa</span>
-              <span class="word">concentrate</span>
-            </div>
-            <button class="audio-btn" onclick="speak('concentrate')" title="朗读发音">
-              🔊
-            </button>
-          </div>
-          <div class="phonetic-pos">
-            <span>/ˈkɑːnsntreɪt/</span> • <span>v. 动词</span>
-          </div>
-          <div class="cn-meaning">
-            中文释义：专注，集中精力
-          </div>
-        </div>
-        <div class="en-def">
-          To give all your attention to what you are doing; to focus.
-        </div>
-      </div>
-
-      <!-- 7. pronounce -->
-      <div class="vocab-card">
-        <div>
-          <div class="card-top">
-            <div class="word-title-group">
-              <span class="word-badge">Aa</span>
-              <span class="word">pronounce</span>
-            </div>
-            <button class="audio-btn" onclick="speak('pronounce')" title="朗读发音">
-              🔊
-            </button>
-          </div>
-          <div class="phonetic-pos">
-            <span>/prəˈnaʊns/</span> • <span>v. 动词</span>
-          </div>
-          <div class="cn-meaning">
-            中文释义：发音，读音
-          </div>
-        </div>
-        <div class="en-def">
-          To say a word correctly; to speak or articulate sounds clearly.
-        </div>
-      </div>
-
-      <!-- 8. vocabulary -->
-      <div class="vocab-card">
-        <div>
-          <div class="card-top">
-            <div class="word-title-group">
-              <span class="word-badge">Aa</span>
-              <span class="word">vocabulary</span>
-            </div>
-            <button class="audio-btn" onclick="speak('vocabulary')" title="朗读发音">
-              🔊
-            </button>
-          </div>
-          <div class="phonetic-pos">
-            <span>/vəˈkæbjəleri/</span> • <span>n. 名词</span>
-          </div>
-          <div class="cn-meaning">
-            中文释义：词汇，词汇量
-          </div>
-        </div>
-        <div class="en-def">
-          The words that a person knows or learns in a language.
-        </div>
-      </div>
-
-      <!-- 9. discourage -->
-      <div class="vocab-card">
-        <div>
-          <div class="card-top">
-            <div class="word-title-group">
-              <span class="word-badge">Aa</span>
-              <span class="word">discourage</span>
-            </div>
-            <button class="audio-btn" onclick="speak('discourage')" title="朗读发音">
-              🔊
-            </button>
-          </div>
-          <div class="phonetic-pos">
-            <span>/dɪsˈkɜːrɪdʒ/</span> • <span>v. 动词</span>
-          </div>
-          <div class="cn-meaning">
-            中文释义：使沮丧，劝阻
-          </div>
-        </div>
-        <div class="en-def">
-          To make someone lose confidence or want to stop trying; to deter.
-        </div>
-      </div>
-
-      <!-- 10. active -->
-      <div class="vocab-card">
-        <div>
-          <div class="card-top">
-            <div class="word-title-group">
-              <span class="word-badge">Aa</span>
-              <span class="word">active</span>
-            </div>
-            <button class="audio-btn" onclick="speak('active')" title="朗读发音">
-              🔊
-            </button>
-          </div>
-          <div class="phonetic-pos">
-            <span>/ˈæktɪv/</span> • <span>adj. 形容词</span>
-          </div>
-          <div class="cn-meaning">
-            中文释义：活跃的，积极的
-          </div>
-        </div>
-        <div class="en-def">
-          Doing things, moving, or participating a lot; involved and busy.
-        </div>
-      </div>
-
-    </div>
-
-    <!-- 第二板块：中英文短文与场景应用 -->
-    <div class="section-title">
-      📖 中英文短文与真实场景表达 (Real-life Practice)
-    </div>
-
-    <div class="article-card">
-      <div class="article-title">1. 短文朗读：如何在学校成为一名高效的学习者</div>
-      
-      <p class="paragraph-en">
-        To be a successful student, you need to stay <strong>active</strong> and keep your study area <strong>organized</strong>. When learning new <strong>vocabulary</strong>, try your best to <strong>pronounce</strong> each word correctly and <strong>concentrate</strong> on its meaning. Even if you face a difficult <strong>situation</strong>, don't let it <strong>discourage</strong> you. A <strong>reliable</strong> study plan will help you reach a good <strong>conclusion</strong> in your learning journey.
-      </p>
-      <p class="paragraph-cn">
-        要成为一名成功的学生，你需要保持<strong>积极活跃</strong>，并让你的学习区域保持<strong>有条不紊</strong>。在学习新<strong>词汇</strong>时，尽量正确地<strong>发音</strong>每一个单词，并<strong>集中精力</strong>理解其含义。即使遇到困难的<strong>局势/情况</strong>，也不要让它<strong>打击你的信心</strong>。一个<strong>可靠的</strong>学习计划将帮助你在学习之旅中取得圆满的<strong>结论/成果</strong>。
-      </p>
-    </div>
-
-    <div class="article-card">
-      <div class="article-title">2. 真实日常生活情绪与状态表达</div>
-      <p class="paragraph-cn" style="margin-bottom: 12px;">在日常交流中，描述自己的感受和情绪是高频场景：</p>
-      
-      <ul class="scene-list">
-        <li class="scene-item">
-          <div class="scene-en">1. I won first place in the contest... I feel proud and excited!</div>
-          <div class="scene-cn">（我在比赛中赢得了第一名……我感到非常自豪和兴奋！）</div>
-        </li>
-        <li class="scene-item">
-          <div class="scene-en">2. I found the wallet I lost yesterday... I feel relieved!</div>
-          <div class="scene-cn">（我找到了昨天丢失的钱包……我感到松了一口气/如释重负！）</div>
-        </li>
-        <li class="scene-item">
-          <div class="scene-en">3. I have to give a presentation today... I feel nervous and anxious!</div>
-          <div class="scene-cn">（我今天要做一场演讲……我感到很紧张和焦虑！）</div>
-        </li>
-        <li class="scene-item">
-          <div class="scene-en">4. I didn't sleep well last night... I feel exhausted and tired!</div>
-          <div class="scene-cn">（我昨晚没睡好……我感到精疲力竭、非常疲倦！）</div>
-        </li>
-      </ul>
-    </div>
-
-  </div>
-
-  <!-- 发音与高度通信脚本 -->
-  <script>
-    // 朗读发音函数
-    function speak(text) {
-      if ('speechSynthesis' in window) {
-        window.speechSynthesis.cancel();
-        const utterance = new SpeechSynthesisUtterance(text);
-        utterance.lang = 'en-US';
-        utterance.rate = 0.85;
-        window.speechSynthesis.speak(utterance);
-      } else {
-        alert('您的浏览器暂不支持语音朗读功能。');
-      }
-    }
-
-    // 自动高度自适应（传递给 Blogger iframe）
-    function sendHeight() {
-      var height = document.documentElement.scrollHeight || document.body.scrollHeight;
-      window.parent.postMessage({ frameHeight: height }, '*');
-    }
-    window.addEventListener('load', sendHeight);
-    window.addEventListener('resize', sendHeight);
-  </script>
-</body>
-</html>
+</style></head>
+<body><main class="page">
+<header><h1>Ventures 3 Unit 1b-1a:Personal Information & School</h1><p>Ricky 20260909 · 点击 🔊 收听美式发音</p></header>
+<section class="grid"><article class="card" id="reliable">
+<div class="head"><div class="badge blue">🤝</div><div class="titlewrap">
+<div class="titleline"><h2>reliable</h2><button class="speaker" aria-label="Play reliable" onclick="speakWord('reliable', this)" title="点击播放美式发音"><span>🔊</span></button></div>
+<div class="meta"><b>adj. 形容词</b><span>/rɪˈlaɪ.ə.bəl/</span></div></div></div>
+<div class="zh"><strong>中文释义：</strong>可靠的、靠谱的</div>
+<p><strong>英文释义：</strong>Someone or something you can trust or depend on. Dependable, trustworthy.</p>
+<div class="label">高频搭配与例句</div><ul><li>a <span class="key">reliable</span> source of information (可靠的消息来源)</li><li><span class="key">reliable</span> method (可靠的方法)</li><li>be <span class="key">reliable</span> at work (工作靠谱)</li></ul>
+<div class="label">记忆提示</div><p>把 <span class="key">reliable</span> 和 person / source / friend 绑定。想象身边最“靠谱”的朋友：He is a <span class="key">reliable</span> friend.</p>
+</article><article class="card" id="describe">
+<div class="head"><div class="badge pink">🗣️</div><div class="titlewrap">
+<div class="titleline"><h2>describe</h2><button class="speaker" aria-label="Play describe" onclick="speakWord('describe', this)" title="点击播放美式发音"><span>🔊</span></button></div>
+<div class="meta"><b>v. 动词</b><span>/dɪˈskraɪb/</span></div></div></div>
+<div class="zh"><strong>中文释义：</strong>描述、形容</div>
+<p><strong>英文释义：</strong>To tell what something or someone is like. Explain.</p>
+<div class="label">高频搭配与例句</div><ul><li><span class="key">describe</span> in detail (详细描述)</li><li>difficult to <span class="key">describe</span> (难以描述)</li><li><span class="key">describe</span> A as B (把 A 描述 / 形容为 B)</li></ul>
+<div class="label">记忆提示</div><p>口语和写作高频句：Words can’t <span class="key">describe</span> how happy I am. 语言无法形容我现在有多高兴。</p>
+</article><article class="card" id="organized">
+<div class="head"><div class="badge green">🗂️</div><div class="titlewrap">
+<div class="titleline"><h2>organized</h2><button class="speaker" aria-label="Play organized" onclick="speakWord('organized', this)" title="点击播放美式发音"><span>🔊</span></button></div>
+<div class="meta"><b>adj. 形容词</b><span>/ˈɔːr.ɡə.naɪzd/</span></div></div></div>
+<div class="zh"><strong>中文释义：</strong>有条理的、组织严密的</div>
+<p><strong>英文释义：</strong>Arranged in order. Neat and well planned. Orderly or structured.</p>
+<div class="label">高频搭配与例句</div><ul><li>well-<span class="key">organized</span> plan (井井有条的计划)</li><li>highly <span class="key">organized</span> person (非常有条理的人)</li><li>stay <span class="key">organized</span> (保持有条不紊)</li></ul>
+<div class="label">记忆提示</div><p>记住短语：Keep your desk <span class="key">organized</span>. 保持你的桌子有条理。</p>
+</article><article class="card" id="conclusion">
+<div class="head"><div class="badge yellow">🏁</div><div class="titlewrap">
+<div class="titleline"><h2>conclusion</h2><button class="speaker" aria-label="Play conclusion" onclick="speakWord('conclusion', this)" title="点击播放美式发音"><span>🔊</span></button></div>
+<div class="meta"><b>n. 名词</b><span>/kənˈkluː.ʒən/</span></div></div></div>
+<div class="zh"><strong>中文释义：</strong>结论、结尾</div>
+<p><strong>英文释义：</strong>The ending of something. Finish or result.</p>
+<div class="label">高频搭配与例句</div><ul><li>in <span class="key">conclusion</span> (总之 / 最后，写作常用)</li><li>jump to a <span class="key">conclusion</span> (轻率下结论)</li><li>come to / reach a <span class="key">conclusion</span> (得出结论)</li></ul>
+<div class="label">记忆提示</div><p>直接把 in <span class="key">conclusion</span> 作为一个整体短语记住，每次写文章总结时用一次就能记住。</p>
+</article><article class="card" id="situation">
+<div class="head"><div class="badge indigo">🧭</div><div class="titlewrap">
+<div class="titleline"><h2>situation</h2><button class="speaker" aria-label="Play situation" onclick="speakWord('situation', this)" title="点击播放美式发音"><span>🔊</span></button></div>
+<div class="meta"><b>n. 名词</b><span>/ˌsɪtʃ.uˈeɪ.ʃən/</span></div></div></div>
+<div class="zh"><strong>中文释义：</strong>情况、局势、处境</div>
+<p><strong>英文释义：</strong>Something that is happening. State, condition or event.</p>
+<div class="label">高频搭配与例句</div><ul><li>win-win <span class="key">situation</span> (双赢)</li><li>current <span class="key">situation</span> (现状 / 当前局势)</li><li>in a difficult <span class="key">situation</span> (处于困境)</li><li>control the <span class="key">situation</span> (掌控局势)</li></ul>
+<div class="label">记忆提示</div><p>记住固定句型：It depends on the <span class="key">situation</span>. 这取决于具体情况。</p>
+</article><article class="card" id="concentrate">
+<div class="head"><div class="badge orange">🎯</div><div class="titlewrap">
+<div class="titleline"><h2>concentrate</h2><button class="speaker" aria-label="Play concentrate" onclick="speakWord('concentrate', this)" title="点击播放美式发音"><span>🔊</span></button></div>
+<div class="meta"><b>v. 动词</b><span>/ˈkɑːn.sən.treɪt/</span></div></div></div>
+<div class="zh"><strong>中文释义：</strong>专注、集中精力</div>
+<p><strong>英文释义：</strong>To give all your attention to what you are doing. To focus or pay attention.</p>
+<div class="label">高频搭配与例句</div><ul><li><span class="key">concentrate</span> hard (高度集中注意力)</li><li>hard to <span class="key">concentrate</span> (难以集中注意力)</li><li><span class="key">concentrate</span> on something / doing something (专心于某事 / 做某事)</li></ul>
+<div class="label">记忆提示</div><p>重点记介词搭配 <span class="key">concentrate</span> ON：<span class="key">Concentrate</span> on your work. 专注于你的工作。</p>
+</article><article class="card" id="pronounce">
+<div class="head"><div class="badge purple">🔤</div><div class="titlewrap">
+<div class="titleline"><h2>pronounce</h2><button class="speaker" aria-label="Play pronounce" onclick="speakWord('pronounce', this)" title="点击播放美式发音"><span>🔊</span></button></div>
+<div class="meta"><b>v. 动词</b><span>/prəˈnaʊns/</span></div></div></div>
+<div class="zh"><strong>中文释义：</strong>发音、读出</div>
+<p><strong>英文释义：</strong>To say a word correctly. To say, speak or articulate.</p>
+<div class="label">高频搭配与例句</div><ul><li>hard to <span class="key">pronounce</span> (难发音的)</li><li><span class="key">pronounce</span> correctly (正确发音)</li><li>How do you <span class="key">pronounce</span> this word? (这个单词怎么发音？)</li></ul>
+<div class="label">记忆提示</div><p>把 How do you <span class="key">pronounce</span> this? 当成一句实用口语招牌句来背，遇到不会读的单词就能用上。</p>
+</article><article class="card" id="discourage">
+<div class="head"><div class="badge gold">📉</div><div class="titlewrap">
+<div class="titleline"><h2>discourage</h2><button class="speaker" aria-label="Play discourage" onclick="speakWord('discourage', this)" title="点击播放美式发音"><span>🔊</span></button></div>
+<div class="meta"><b>v. 动词</b><span>/dɪsˈkɜːr.ɪdʒ/</span></div></div></div>
+<div class="zh"><strong>中文释义：</strong>使沮丧、劝阻、打压</div>
+<p><strong>英文释义：</strong>To make someone lose confidence or want to stop trying. To deter or dissuade.</p>
+<div class="label">高频搭配与例句</div><ul><li>feel <span class="key">discouraged</span> (感到沮丧)</li><li><span class="key">discourage</span> someone from doing something (劝阻 / 阻止某人做某事)</li><li>Don’t let failures <span class="key">discourage</span> you. (不要让失败打击到你)</li></ul>
+<div class="label">记忆提示</div><p>记搭配 <span class="key">discourage</span> … from …；不要把 <span class="key">discourage</span> 和 <span class="key">discouraged</span> 混淆：前者是“使某人沮丧”，后者常表示“感到沮丧”。</p>
+</article><article class="card" id="vocabulary">
+<div class="head"><div class="badge teal">📚</div><div class="titlewrap">
+<div class="titleline"><h2>vocabulary</h2><button class="speaker" aria-label="Play vocabulary" onclick="speakWord('vocabulary', this)" title="点击播放美式发音"><span>🔊</span></button></div>
+<div class="meta"><b>n. 名词</b><span>/vəˈkæb.jə.ler.i/</span></div></div></div>
+<div class="zh"><strong>中文释义：</strong>词汇、词汇量</div>
+<p><strong>英文释义：</strong>The words that a person knows or learns. Terms or language.</p>
+<div class="label">高频搭配与例句</div><ul><li>rich <span class="key">vocabulary</span> (丰富的词汇量)</li><li>limited <span class="key">vocabulary</span> (有限的词汇量)</li><li>expand / build your <span class="key">vocabulary</span> (扩大你的词汇量)</li><li>increase my <span class="key">vocabulary</span> (增加我的词汇量)</li></ul>
+<div class="label">记忆提示</div><p>把动作和名词连起来背：build / expand / increase your <span class="key">vocabulary</span>。</p>
+</article><article class="card" id="active">
+<div class="head"><div class="badge violet">🙋</div><div class="titlewrap">
+<div class="titleline"><h2>active</h2><button class="speaker" aria-label="Play active" onclick="speakWord('active', this)" title="点击播放美式发音"><span>🔊</span></button></div>
+<div class="meta"><b>adj. 形容词</b><span>/ˈæk.tɪv/</span></div></div></div>
+<div class="zh"><strong>中文释义：</strong>积极的、活跃的</div>
+<p><strong>英文释义：</strong>Doing things, moving, or participating a lot. Involved, busy.</p>
+<div class="label">高频搭配与例句</div><ul><li><span class="key">active</span> member (活跃成员)</li><li><span class="key">active</span> lifestyle (积极健康的生活方式)</li><li>take an <span class="key">active</span> part in (积极参与……)</li><li>stay <span class="key">active</span> (保持活力)</li><li>be <span class="key">active</span> in class (课堂表现积极)</li></ul>
+<div class="label">记忆提示</div><p>记日常短语 stay <span class="key">active</span>（保持运动 / 保持活力）以及课堂高频句 be <span class="key">active</span> in class（课堂表现积极）。</p>
+</article></section>
+<section class="story-section"><h3>ESL课堂上的小故事</h3><p>在 ESL 课堂上，有时我们会面对不同的<span class="storyword">情况（situation）</span>。老师鼓励我们保持<span class="storyword">积极（active）</span>。</p>
+<p>老师教我们怎样正确<span class="storyword">发音（pronounce）</span>，也帮助我们增加<span class="storyword">词汇量（vocabulary）</span>。</p>
+<p>如果我们做事<span class="storyword">有条理（organized）</span>，并且上课时能够<span class="storyword">集中注意力（concentrate）</span>，学习就会更容易。遇到困难时，也不要<span class="storyword">感到沮丧（discouraged）</span>。</p>
+<p>找到适合自己的学习方法后，我们可以成为<span class="storyword">可靠的（reliable）</span>学习者。我们也可以清楚地<span class="storyword">描述（describe）</span>自己的想法，并在最后得出一个好的<span class="storyword">结论（conclusion）</span>。</p><h3>A Story in ESL Class</h3><p>In ESL class, we sometimes face different <span class="storyword">situations</span>. Our teacher tells us to stay <span class="storyword">active</span>.</p>
+<p>The teacher shows us how to <span class="storyword">pronounce</span> words correctly. She also helps us build our <span class="storyword">vocabulary</span>.</p>
+<p>If we are <span class="storyword">organized</span> and <span class="storyword">concentrate</span> in class, learning becomes easier. When things are difficult, we should not feel <span class="storyword">discouraged</span>.</p>
+<p>With a good study method, we can become <span class="storyword">reliable</span> learners. We can clearly <span class="storyword">describe</span> our ideas and reach a good <span class="storyword">conclusion</span>.</p></section>
+<footer>Interactive pronunciation study sheet</footer></main>
+<script>
+let voices=[];function loadVoices(){voices=speechSynthesis.getVoices()}loadVoices();speechSynthesis.onvoiceschanged=loadVoices;
+function speakWord(word,btn){speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(word);u.lang='en-US';u.rate=.82;const preferred=voices.find(v=>v.lang==='en-US' && /Samantha|Ava|Jenny|Google US English|Microsoft/.test(v.name))||voices.find(v=>v.lang==='en-US')||voices.find(v=>v.lang.startsWith('en'));if(preferred)u.voice=preferred;document.querySelectorAll('.speaker').forEach(b=>b.classList.remove('playing'));btn.classList.add('playing');u.onend=()=>btn.classList.remove('playing');u.onerror=()=>btn.classList.remove('playing');speechSynthesis.speak(u)}
+</script></body></html>
