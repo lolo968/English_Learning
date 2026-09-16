@@ -102,7 +102,7 @@
 <p>The teacher shows us how to <span class="storyword">pronounce</span> words correctly. She also helps us build our <span class="storyword">vocabulary</span>.</p>
 <p>If we are <span class="storyword">organized</span> and <span class="storyword">concentrate</span> in class, learning becomes easier. When things are difficult, we should not feel <span class="storyword">discouraged</span>.</p>
 <p>With a good study method, we can become <span class="storyword">reliable</span> learners. We can clearly <span class="storyword">describe</span> our ideas and reach a good <span class="storyword">conclusion</span>.</p></section>
-<footer>Interactive pronunciation study sheet</footer></main>
+<footer>Ricky study sheet</footer></main>
 <script>
 let voices=[];function loadVoices(){voices=speechSynthesis.getVoices()}loadVoices();speechSynthesis.onvoiceschanged=loadVoices;
 function speakWord(word,btn){speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(word);u.lang='en-US';u.rate=.82;const preferred=voices.find(v=>v.lang==='en-US' && /Samantha|Ava|Jenny|Google US English|Microsoft/.test(v.name))||voices.find(v=>v.lang==='en-US')||voices.find(v=>v.lang.startsWith('en'));if(preferred)u.voice=preferred;document.querySelectorAll('.speaker').forEach(b=>b.classList.remove('playing'));btn.classList.add('playing');u.onend=()=>btn.classList.remove('playing');u.onerror=()=>btn.classList.remove('playing');speechSynthesis.speak(u)}
